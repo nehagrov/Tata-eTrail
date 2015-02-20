@@ -23,7 +23,10 @@ public final class TrainingConstants extends GeneratedTrainingConstants
 	private TrainingConstants()
 	{
 		//empty to avoid instantiating this constant class
+
 	}
+
+	final String BUTTON_NAME = "BUTTON";
 
 	// implement here constants used by this extension
 }
