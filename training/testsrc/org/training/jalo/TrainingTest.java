@@ -35,6 +35,8 @@ public class TrainingTest extends HybrisJUnit4TransactionalTest
 	@Before
 	public void setUp()
 	{
+              System.out.println("hi");
+	
 		// implement here code executed before each test
 	}
 
