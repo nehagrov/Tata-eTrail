@@ -13,6 +13,7 @@
  */
 package org.training.jalo;
 
+
 import static org.junit.Assert.assertTrue;
 
 
