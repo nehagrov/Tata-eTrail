@@ -47,6 +47,7 @@ public class TrainingStandalone
 		Registry.activateMasterTenant();
 
 		final JaloSession jaloSession = JaloSession.getCurrentSession();
+			System.out.println("Session ID: " + jaloSession.getSessionID()); //NOPMD
 		System.out.println("Session ID: " + jaloSession.getSessionID()); //NOPMD
 		System.out.println("User: " + jaloSession.getUser()); //NOPMD
 		Utilities.printAppInfo();
